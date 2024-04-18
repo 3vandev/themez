@@ -9,6 +9,6 @@ def run(command):
 
 run(["cp", "-r", "./src/", f"/home/{username}/.themez"])
 
-subprocess.run(f"echo 'alias themez=\"python ~/.themez/themes.py\"' >> ~/.bashrc", shell=True)
+subprocess.run(f"echo 'alias themez=\"python3 ~/.themez/themes.py\"' >> ~/.bashrc", shell=True)
 
 
