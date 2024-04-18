@@ -1,8 +1,11 @@
 # Themez
 THEMEZ is a themes manager for neofetch and can also be modified to run for other programs
 
+<hr/>
+
 ### Plans
 My plan is to allow the user to install themes directly from the internet quickly and easily
+<hr>
 
 ### Installation
 Open a terminal window and type the command
