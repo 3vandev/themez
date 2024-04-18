@@ -38,7 +38,20 @@ def remove(theme):
         print(f"Sucessfully removed theme: {theme}")
     except:
         print(f"Error while removing theme: {theme}")
-        
+
+def update():
+    run('git clone https://github.com/3vandev/themez ~')
+    run('cd ~/themez')
+    run('python installer.py')
+
+
+def help():
+    print("show ❯ displays all themes")
+    print("apply <theme> ❯ applys given theme")
+    print("add <theme-path> ❯ installs a new theme config from the path provided")
+    print("remove <theme> ❯ removes a theme from your libary")
+    print("update ❯ updates the program")
+
 if len(sys.argv) > 1:
     function_name = sys.argv[1]
 
