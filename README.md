@@ -4,7 +4,7 @@ THEMEZ is a themes manager for neofetch and can also be modified to run for othe
 <hr/>
 
 ### Plans
-My plan is to allow the user to install themes directly from the internet quickly and easily
+My plan is to allow the user to install themes directly from the internet quickly and easily and add them to their themes libary
 <hr>
 
 ### Installation
@@ -31,4 +31,15 @@ Now that python is installed run the installer with:
 `python installer.py` or
 `python3 installer.py`
 
-once the installer finshies restart your terminal and run themez to test
+once the installer finshies restart your terminal and run `themez list` to test
+
+<hr>
+
+### How to use themez?
+If you don't already add a themes folder to your neofetch config
+`mkdir ~/.config/themes`
+
+Once you have made this folder drag all of your neofetch configs into the folder or run `themez add <configfile>` to add it directly to your themes folder. If you don't already have any neofetch configs there are plenty of repositorys full of different ones.
+
+Now run `themez list` to display your themez.
+and `themez apply <theme>` to select one.
